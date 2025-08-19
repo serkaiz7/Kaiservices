@@ -1,0 +1,45 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VlogEdit Pro - Free Video Editing Consultation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section with Opt-In Form -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Elevate Your Vlogs with Professional Editing!</h1>
+            <p>Get a free consultation and trial edit for your next vlog. Tailored for vloggers who want cinematic quality without the hassle.</p>
+            <form id="opt-in-form" class="opt-in-form">
+                <input type="text" id="name" placeholder="Your Full Name" required>
+                <input type="email" id="email" placeholder="Your Email Address" required>
+                <input type="tel" id="phone" placeholder="Your Phone Number" required>
+                <button type="submit">Claim Free Consultation Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section id="thank-you">
+        <h2>Thank You for Reaching Out!</h2>
+        <p>We've got your details and will be in touch soon to discuss your vlog editing needs.</p>
+        <p>Schedule your free consultation call below:</p>
+        <div id="booking-calendar">
+            <!-- Simulated Calendar (In a real app, integrate Calendly API or similar) -->
+            <p>Select a date: <input type="date" id="booking-date"></p>
+            <button onclick="bookSession()">Book Call</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 VlogEdit Pro Agency Demo | Powered by Your White-Label Agency | Hosted on GitHub Pages
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
